@@ -35,10 +35,8 @@
 ``` cmd
 git clone https://github.com/Nls0n/DAG-service.git
 ```
-2. В клонированном проекте выполните файл configurate.py
-``` cmd
-python configurate.py
-```
+2. В клонированном проекте настройте .env файл для работы программы
+
 3. Откройте Docker Desktop и выполните, находясь в корне репозитория
 ``` cmd
 docker-compose up -d --build
